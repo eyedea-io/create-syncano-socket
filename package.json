@@ -1,0 +1,37 @@
+{
+  "name": "create-syncano-socket",
+  "version": "0.0.0",
+  "author": "EYEDEA AS <dev@eyedea.io> https://eyedea.io",
+  "license": "MIT",
+  "keywords": [
+    "syncano"
+  ],
+  "description": "Create Syncano Socket with one command.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eyedea-io/create-syncano-socket.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eyedea-io/create-syncano-socket/issues"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "create-syncano-socket": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cross-spawn": "6.0.5",
+    "fs-extra": "^8.1.0",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "prettier": {
+    "semi": false,
+    "bracketSpacing": false,
+    "singleQuote": true
+  }
+}
